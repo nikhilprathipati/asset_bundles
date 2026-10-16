@@ -1,0 +1,14 @@
+resources:
+  pipelines:
+    etl:
+      name: etl
+      libraries:
+        - glob:
+            include: ../../src/etl/transformations/**
+      schema: default
+      continuous: false
+      photon: true
+      channel: CURRENT
+      catalog: "${var.catalog}"
+      serverless: true
+      root_path: ../../src/etl

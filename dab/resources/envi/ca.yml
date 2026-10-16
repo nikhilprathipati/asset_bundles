@@ -1,0 +1,8 @@
+# This file is not a valid DABs resource definition.
+# Remove it or add a proper resource definition under the 'resources:' key.
+# Example:
+# resources:
+#   pipelines:
+#     my_pipeline:
+#       name: my_pipeline
+#       ...
